@@ -1,4 +1,4 @@
-package day06_arithmetic_operator;
+package day06_arithmetic_operators;
 
 public class DifferentTypes {
     public static void main(String[] args) {

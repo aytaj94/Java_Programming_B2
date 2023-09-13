@@ -1,11 +1,10 @@
-package day06_arithmetic_operator;
+package day06_arithmetic_operators;
 
 public class CastingExample {
     public static void main(String[] args) {
 
         short numOne = 40;
         float numTwo = numOne; // short is smaller than float , so casting happens.
-
         System.out.println(numOne);
         System.out.println(numTwo);
         System.out.println();
@@ -31,10 +30,13 @@ public class CastingExample {
         System.out.println(letterInt);
 
         System.out.println( (int) letter );
+
         int let2 = 66;
         char let3 = (char)let2;
         System.out.println(let3);
         System.out.println((char)66); // this is the same thing as above, but we directly casted it in the print statement.
+
+        System.out.println((int)'&');
 
 
 

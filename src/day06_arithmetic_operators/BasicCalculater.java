@@ -1,4 +1,4 @@
-package day06_arithmetic_operator;
+package day06_arithmetic_operators;
 
 public class BasicCalculater {
 
@@ -21,7 +21,13 @@ public class BasicCalculater {
         System.out.println(num1 + " / " + num2 + " = " + division);
         System.out.println(num1 + " % " + num2 + " = " + modules);
 
-        System.out.println();
+        System.out.println(num1 + " + " + num2 + " = " + num1 + num2);  // How can I make the addition happen first.
+        /*
+            2 * 3 + 4 == > 10
+            2 * (3 + 4) == > 2 * 7 == > 14
+         */
+        System.out.println(num1 + " + " + num2 + " = " + (num1 + num2));  // Parenthesis have higher priority in action.
+
 
     }
 

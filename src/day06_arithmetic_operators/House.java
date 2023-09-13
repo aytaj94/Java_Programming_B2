@@ -1,4 +1,4 @@
-package day06_arithmetic_operator;
+package day06_arithmetic_operators;
 
 public class House {
      /*
@@ -31,8 +31,13 @@ public class House {
 
         String result = "The " + houseType + " on " + address + ", " + zipcode + " costs $" + price + ". \nThe " +
                 houseType + " has " + numberOfBedroom + " bedrooms, has " + numberOfBatroom + " bathrooms, and has " +
-                numberOfKitchen + " kitchen. \nIt also includes a basement: " + hasBasement + ", has ann attic: " +
-                 " and, has a park: " + hasPark + ", is on sale: " + isOnSale + "\nThe schools in the area have a rating of " + rating;
+                numberOfKitchen + " kitchen. \nIt also includes a basement: " + hasBasement + ", has an attic: " + hasAttic +
+                " and, has a park: " + hasPark + ", is on sale: " + isOnSale + "\nThe schools in the area have a rating of " + rating;
+        System.out.println(result);
+
+
+
+
 
     }
 }
