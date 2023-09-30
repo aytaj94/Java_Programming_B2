@@ -51,8 +51,9 @@ public class Schedule {
                 result = "Not valid day of week";
                 break;
         }
-
         System.out.println(result);
+
+
 
 
 
