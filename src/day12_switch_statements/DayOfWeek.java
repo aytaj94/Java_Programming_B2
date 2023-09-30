@@ -44,9 +44,10 @@ public class DayOfWeek {
             default:
                 day = "No valid number that represents day of week!";
                 break;
-        }
 
+        }
         System.out.println(day);
+
 
     }
 
