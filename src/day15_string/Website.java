@@ -34,7 +34,7 @@ public class Website {
 
         int endPoint = url.length()-4;
         System.out.println(url.substring(startPoint, endPoint));
-
+        
 
     }
 
