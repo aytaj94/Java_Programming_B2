@@ -60,7 +60,7 @@ public class LongestWithA {
         // then compare the length
 
         // java
-        // mousea
+        // mouse
         // computer
         System.out.println("-----------------------");
 
