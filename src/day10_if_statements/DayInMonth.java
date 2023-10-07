@@ -41,7 +41,6 @@ use the following data to help you determine the number of days in each month:
         }
 
         // above is 3 single if statements, below is one multi branch if
-
         if(has31Days){
             System.out.println("31 days");
         } else if(has30Days) {
@@ -51,6 +50,7 @@ use the following data to help you determine the number of days in each month:
         } else {
             System.out.println("Invalid number for month");
         }
+
 
 
     }
