@@ -42,18 +42,9 @@ public class ArmyQualify {
                     System.out.println("You must have a diploma.");
                 }
 
-
-
             } else {
                 System.out.println("You must be between 18 and 35 years old");
             }
-
-
-
-
-
-
-
 
         } else {
             System.out.println("You must be a citizen or resident");
