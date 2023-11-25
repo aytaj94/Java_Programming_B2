@@ -4,5 +4,4 @@ public abstract  class Car {
     //abstract method: method with no body
     public abstract void start();
 
-
 }
